@@ -1,6 +1,6 @@
 .container {
     background-color: var(--color-grey-1);
-    max-width: 120rem;
+    max-width: 130rem;
     margin: 8rem auto;
     box-shadow: var(--shadow-black);
 
@@ -10,7 +10,7 @@
 .header {
     background-color: var(--color-white);
     height: 7rem;
-    border-bottom: var(--color-grey-2);
+    border-bottom: var(--line);
     font-size: 1.4rem;
 
     display: flex;
@@ -34,7 +34,25 @@
     background-color: var(--color-white);
 
     //testing!
-    background-color: orangered;
+
     flex: 1;
-    height: 80rem;
+}
+
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-1);
+    border-bottom: var(--line);
+}
+.description {
+    background-color: white;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    font-size: 1.4rem;
+}
+.user__reviews {
+    background-color: yellowgreen;
+    flex: 1;
 }
